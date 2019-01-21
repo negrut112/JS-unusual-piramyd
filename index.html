@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Practice JavaScript by drawing</title>
+</head>
+<body>
+  <canvas id="myCanvas" height="300" width="450" style="border: 1px solid black"></canvas>
+  <script>
+   var canvas = document.getElementById('myCanvas');
+   var context = canvas.getContext('2d');
+   context.strokeStyle='red';
+   context.beginPath();
+   for(i=0;i<=450;i+=3){
+   context.moveTo(225,0);
+   context.lineTo(i+0,150);
+   }for(i=0;i<=450;i+=3){
+   context.moveTo(225,300);
+   context.lineTo(i+1,150);
+   }context.stroke();
+  </script>
+</body>
+</html>
