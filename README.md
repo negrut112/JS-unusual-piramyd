@@ -11,7 +11,7 @@
 <p>This <i><b>for</b></i> loop is drawing lines from top and bottom to middle of canvas.<br>
 For the “upper” pyramid the begining point is found on top-middle from where we draw ex. 450 lines to the middle at distance of 3 between them.<br>
 The lower “pyramid” is doing the oposit way - 450 lines from bottom to middle, at distance of 3 between them, but the first line is starting with an extra unit.</p>
-<p>context.strokeStyle=‘red’;<br>
+<pre><code>context.strokeStyle=‘red’;<br>
 context.beginPath();<br>
 for(i=0;i&lt;=450;i+=3){<br>
 context.moveTo(225,0);<br>
@@ -19,4 +19,4 @@ context.lineTo(i+0,150);<br>
 }for(i=0;i&lt;=450;i+=3){<br>
 context.moveTo(225,300);<br>
 context.lineTo(i+1,150);<br>
-}context.stroke();</p>
+}context.stroke();<code></pre>
