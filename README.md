@@ -8,7 +8,7 @@
 <p>&lt;canvas id=“myCanvas” height=“310” width=“500” style=“border: 1px solid black”&gt;&lt;/canvas&gt;</p>
 
 <b>JavaScript</b>
-<p>This for loop is drawing lines from top and bottom to middle of canvas.<br>
+<p>This <i>for</i> loop is drawing lines from top and bottom to middle of canvas.<br>
 For the “upper” pyramid the begining point is found on top-middle from where we draw ex. 450 lines to the middle at distance of 3 between them.<br>
 The lower “pyramid” is doing the oposit way - 450 lines from bottom to middle, at distance of 3 between them, but the first line is starting with an extra unit.</p>
 <p>context.strokeStyle=‘red’;<br>
