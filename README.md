@@ -1,5 +1,5 @@
 <h1><a id="Unusual_Pyramid_0"></a>JS-Unusual Pyramid</h1>
-<p>A mirrored “pyramid” made with a JS for loop.</p>
+<p>A mirrored “pyramid” made with a JS <i>for</i> loop.</p>
 <p>You can check the live preview on: <a href="https://negrut112.github.io/JS-unusual-piramyd/">https://negrut112.github.io/JS-unusual-piramyd/</a><br>
 <img src="https://i.imgur.com/2rgp8cQ.jpg">
 
